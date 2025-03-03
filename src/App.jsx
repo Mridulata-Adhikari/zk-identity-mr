@@ -21,7 +21,7 @@ function App() {
     const inputs=[
       address,
       "205410u128",
-      "199812i32"
+      "199802i32"
     ]
     const txId= await aleoWorker.issueZPass(
       privateKey,inputs
